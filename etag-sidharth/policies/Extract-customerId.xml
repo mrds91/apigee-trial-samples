@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="Extract-customerId">
+    <DisplayName>Extract customerId</DisplayName>
+    <Source>request</Source>
+    <URIPath>
+        <Pattern ignoreCase="true">/customerOrders/{customerId}</Pattern>
+    </URIPath>
+    <VariablePrefix>apigee</VariablePrefix>
+</ExtractVariables>

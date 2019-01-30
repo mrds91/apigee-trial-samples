@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="Extract-customerlist">
+    <DisplayName>Extract customerlist</DisplayName>
+    <Properties/>
+    <Properties/>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <Source clearPayload="false">customerListResponse</Source>
+    <VariablePrefix>apigee</VariablePrefix>
+    <JSONPayload>
+        <Variable name="customerList">
+            <JSONPath>$</JSONPath>
+        </Variable>
+    </JSONPayload>
+</ExtractVariables>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="6" name="customer-order-list">
+    <Basepaths>/api/digital/customer-order-list</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1548766574760</CreatedAt>
+    <CreatedBy>jishamj93@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>customer-order-list</DisplayName>
+    <LastModifiedAt>1548854274530</LastModifiedAt>
+    <LastModifiedBy>jishamj93@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:bb75d70dc74c8fd491e55b94788306a14494ed8ea452144fc3774ddd405585e28f19623721ba413f48c55f9837a6e740803998afcdd0e1c0a409cf3c8af048f5</ManifestVersion>
+    <Policies>
+        <Policy>Add-headers</Policy>
+        <Policy>AssignMessage.DisablePathCopy</Policy>
+        <Policy>Check-etag</Policy>
+        <Policy>Etag-KVM</Policy>
+        <Policy>Extract-customerId</Policy>
+        <Policy>Extract-customerlist</Policy>
+        <Policy>Final-response</Policy>
+        <Policy>Service-Callout-1</Policy>
+        <Policy>etag-Validation</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

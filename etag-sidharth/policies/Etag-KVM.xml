@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="Etag-KVM" mapIdentifier="Etag-map">
+    <DisplayName>Store etag in KVM</DisplayName>
+    <Properties/>
+    <ExclusiveCache>false</ExclusiveCache>
+    <ExpiryTimeInSecs>300</ExpiryTimeInSecs>
+    <Put override="false">
+        <Key>
+            <Parameter ref="_etag"/>
+        </Key>
+        <Value ref="apigee.customerId"/>
+    </Put>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>
